@@ -1,0 +1,29 @@
+{
+  "name": "colored-routes-logger",
+  "version": "1.0.1",
+  "description": "Logs routes in a Sails.js routes object with color formatting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaggen/colored-routes-logger.git"
+  },
+  "keywords": [
+    "sails.js",
+    "routes",
+    "logging",
+    "colors"
+  ],
+  "author": "Zaggen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaggen/colored-routes-logger/issues"
+  },
+  "homepage": "https://github.com/Zaggen/colored-routes-logger#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^3.10.1"
+  }
+}
