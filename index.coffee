@@ -7,7 +7,7 @@ defaultTheme =
   param: 'green'
   path: 'white'
 
-logColoredRoutes = (routes, colorSettings = {})->
+coloredRoutesLogger = (routes, colorSettings = {})->
   colors.setTheme(_.defaults(colorSettings, defaultTheme))
 
   for route, action of routes
@@ -26,3 +26,5 @@ logColoredRoutes = (routes, colorSettings = {})->
         coloredString += "#{colors.path(routeSegment)}"
 
     console.log coloredString
+
+module.exports = coloredRoutesLogger
